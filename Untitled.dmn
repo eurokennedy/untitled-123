@@ -3,6 +3,12 @@
   <inputData name="New Input Data" id="_30D186DB-14A8-47FA-AED0-5A6080F81CF9">
     <variable name="New Input Data" id="_DC756141-4E7B-4EF4-B42E-4934E8D46B84" typeRef="&lt;Undefined&gt;" />
   </inputData>
+  <decision name="New commit" id="_444225F9-0D21-4C1B-B851-619B7306941D">
+    <variable id="_FB4E5305-0B18-49E4-851C-0BB78549B33D" typeRef="&lt;Undefined&gt;" name="New commit" />
+    <informationRequirement id="_8FD4B74E-5083-4F75-B09F-A2AA00D3AD90">
+      <requiredInput href="#_30D186DB-14A8-47FA-AED0-5A6080F81CF9" />
+    </informationRequirement>
+  </decision>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_330CB9D5-B874-4D3E-BFDD-078B5AA28B15" name="Default DRD" useAlternativeInputDataShape="false">
       <di:extension>
@@ -13,6 +19,13 @@
       <dmndi:DMNShape id="_353D7733-6029-4033-8770-6D219C0340B0" dmnElementRef="_30D186DB-14A8-47FA-AED0-5A6080F81CF9" isCollapsed="false" isListedInputData="false">
         <dc:Bounds x="540" y="80" width="160" height="80" />
       </dmndi:DMNShape>
+      <dmndi:DMNShape id="_B045917C-CEA9-478F-AE19-EDF43A91854E" dmnElementRef="_444225F9-0D21-4C1B-B851-619B7306941D" isCollapsed="false" isListedInputData="false">
+        <dc:Bounds x="900" y="300" width="160" height="80" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="_E1645FD1-AE14-4AD1-9808-B1B2B8EFB6BE-AUTO-TARGET" dmnElementRef="_8FD4B74E-5083-4F75-B09F-A2AA00D3AD90" sourceElement="_353D7733-6029-4033-8770-6D219C0340B0" targetElement="_B045917C-CEA9-478F-AE19-EDF43A91854E">
+        <di:waypoint x="620" y="120" />
+        <di:waypoint x="980" y="340" />
+      </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
 </definitions>
